@@ -1,4 +1,4 @@
-# Validator para urls HTTP(S)
+# Validator for HTTP(S) URLS
 
 ### First step: Create a resource at app/validators/url_validator with the follow content:
 
@@ -31,4 +31,7 @@ class WhateverClass < ActiveRecord::Base
 end
 ```
 
+## Contact
+
 ### Feel free to talk with me in case of doubts, suggestions or whatever thing! I will appreciate it!
+mail: gustavoufms@gmail.com
