@@ -4,18 +4,12 @@
 
 ```ruby
 class UrlValidator < ActiveModel::EachValidator
-  # Realiza a validação de url
-  #
-  # @return [NilClass] Sem erro de validação
-  # @return [ActiveModel::Errors] Erros de validação.
+  # Do the url validation
   def validate_each(record, attribute, value)
     record.errors[attribute] << ("Deve ser uma URL válida.") unless url_valid?(value)
   end
 
-  # Valida se a url está com http / https
-  #
-  # @return [TrueClass] URL válida.
-  # @return [FalseClass] URL inválida.
+  # Validate presence of http or https
   def url_valid?(url)
     url = URI.parse(url) rescue false
     url.kind_of?(URI::HTTP) || url.kind_of?(URI::HTTPS)
