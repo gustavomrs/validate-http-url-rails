@@ -33,5 +33,5 @@ end
 
 ## Contact
 
-### Feel free to talk with me in case of doubts, suggestions or whatever thing! I will appreciate it!
+Feel free to talk with me in case of doubts, suggestions or whatever thing! I will appreciate it!
 mail: gustavoufms@gmail.com
