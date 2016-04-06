@@ -1,8 +1,8 @@
 # Validator para urls HTTP/HTTPS
 
-## Crie um recurso para validators em app/validators/ (caso ainda não tenha), e adicione a classe:
+### Crie um recurso para validators em app/validators/ (caso ainda não tenha), e adicione a classe:
 
-```
+```ruby
 class UrlValidator < ActiveModel::EachValidator
   # Realiza a validação de url
   #
@@ -23,9 +23,9 @@ class UrlValidator < ActiveModel::EachValidator
 end
 ```
 
-## Adicione o validate url: true para o seu atributo que contém a url:
+### Adicione o validate url: true para o seu atributo que contém a url:
 
-```
+```ruby
 class WhateverClass < ActiveRecord::Base
   validates :my_url, url: true
 end
