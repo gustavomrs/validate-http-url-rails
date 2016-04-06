@@ -1,4 +1,4 @@
-# Validator para urls HTTP/HTTPS
+# Validator para urls HTTP(S)
 
 ### Crie um recurso para validators em app/validators/ (caso ainda não tenha), e adicione a classe:
 
